@@ -6,36 +6,63 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F66DCF992E9CE4A100D82D30 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = F66DCF982E9CE4A100D82D30 /* Then */; };
+		F66DCF9C2E9CE4B000D82D30 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F66DCF9B2E9CE4B000D82D30 /* SnapKit */; };
+		F66DCFA82E9CE96B00D82D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66DCF9D2E9CE96B00D82D30 /* AppDelegate.swift */; };
+		F66DCFA92E9CE96B00D82D30 /* DangGeunLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66DCF9F2E9CE96B00D82D30 /* DangGeunLoginViewController.swift */; };
+		F66DCFAA2E9CE96B00D82D30 /* DangGeunWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66DCFA02E9CE96B00D82D30 /* DangGeunWelcomeViewController.swift */; };
+		F66DCFAB2E9CE96B00D82D30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66DCFA42E9CE96B00D82D30 /* LoginViewController.swift */; };
+		F66DCFAC2E9CE96B00D82D30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66DCFA52E9CE96B00D82D30 /* SceneDelegate.swift */; };
+		F66DCFAD2E9CE96B00D82D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66DCFA62E9CE96B00D82D30 /* ViewController.swift */; };
+		F66DCFAE2E9CE96B00D82D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66DCF9E2E9CE96B00D82D30 /* Assets.xcassets */; };
+		F66DCFB02E9CE96B00D82D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66DCFA32E9CE96B00D82D30 /* LaunchScreen.storyboard */; };
+		F66DCFB52E9CEA4600D82D30 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66DCFB42E9CEA4600D82D30 /* UIFont+.swift */; };
+		F69DCE8E2E9D52B500F2F688 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DCE8D2E9D52AF00F2F688 /* UIView+.swift */; };
+		F69DCE902E9D58CE00F2F688 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DCE8F2E9D58C500F2F688 /* UITextField+.swift */; };
+		F69DCE9B2E9D619000F2F688 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69DCE922E9D619000F2F688 /* Pretendard-Black.otf */; };
+		F69DCE9C2E9D619000F2F688 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69DCE982E9D619000F2F688 /* Pretendard-Regular.otf */; };
+		F69DCE9D2E9D619000F2F688 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69DCE932E9D619000F2F688 /* Pretendard-Bold.otf */; };
+		F69DCE9E2E9D619000F2F688 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69DCE992E9D619000F2F688 /* Pretendard-SemiBold.otf */; };
+		F69DCE9F2E9D619000F2F688 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69DCE962E9D619000F2F688 /* Pretendard-Light.otf */; };
+		F69DCEA02E9D619000F2F688 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69DCE972E9D619000F2F688 /* Pretendard-Medium.otf */; };
+		F69DCEA12E9D619000F2F688 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69DCE9A2E9D619000F2F688 /* Pretendard-Thin.otf */; };
+		F69DCEA22E9D619000F2F688 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69DCE942E9D619000F2F688 /* Pretendard-ExtraBold.otf */; };
+		F69DCEA32E9D619000F2F688 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69DCE952E9D619000F2F688 /* Pretendard-ExtraLight.otf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F66DCF792E9A231300D82D30 /* AhnChiWook_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhnChiWook_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66DCF9D2E9CE96B00D82D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F66DCF9E2E9CE96B00D82D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F66DCF9F2E9CE96B00D82D30 /* DangGeunLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangGeunLoginViewController.swift; sourceTree = "<group>"; };
+		F66DCFA02E9CE96B00D82D30 /* DangGeunWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangGeunWelcomeViewController.swift; sourceTree = "<group>"; };
+		F66DCFA12E9CE96B00D82D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66DCFA22E9CE96B00D82D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F66DCFA42E9CE96B00D82D30 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F66DCFA52E9CE96B00D82D30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F66DCFA62E9CE96B00D82D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F66DCFB42E9CEA4600D82D30 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		F69DCE8D2E9D52AF00F2F688 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		F69DCE8F2E9D58C500F2F688 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		F69DCE922E9D619000F2F688 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		F69DCE932E9D619000F2F688 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		F69DCE942E9D619000F2F688 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		F69DCE952E9D619000F2F688 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		F69DCE962E9D619000F2F688 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		F69DCE972E9D619000F2F688 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		F69DCE982E9D619000F2F688 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		F69DCE992E9D619000F2F688 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		F69DCE9A2E9D619000F2F688 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F66DCF8B2E9A231500D82D30 /* Exceptions for "AhnChiWook_practice" folder in "AhnChiWook_practice" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = F66DCF782E9A231300D82D30 /* AhnChiWook_practice */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F66DCF7B2E9A231300D82D30 /* AhnChiWook_practice */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F66DCF8B2E9A231500D82D30 /* Exceptions for "AhnChiWook_practice" folder in "AhnChiWook_practice" target */,
-			);
-			path = AhnChiWook_practice;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F66DCF762E9A231300D82D30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66DCF992E9CE4A100D82D30 /* Then in Frameworks */,
+				F66DCF9C2E9CE4B000D82D30 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +72,7 @@
 		F66DCF702E9A231300D82D30 = {
 			isa = PBXGroup;
 			children = (
-				F66DCF7B2E9A231300D82D30 /* AhnChiWook_practice */,
+				F66DCFA72E9CE96B00D82D30 /* AhnChiWook_practice */,
 				F66DCF7A2E9A231300D82D30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +83,66 @@
 				F66DCF792E9A231300D82D30 /* AhnChiWook_practice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F66DCFA72E9CE96B00D82D30 /* AhnChiWook_practice */ = {
+			isa = PBXGroup;
+			children = (
+				F66DCFB22E9CE99300D82D30 /* Global */,
+				F66DCFB12E9CE97400D82D30 /* Week1 */,
+				F66DCF9D2E9CE96B00D82D30 /* AppDelegate.swift */,
+				F66DCFA12E9CE96B00D82D30 /* Info.plist */,
+				F66DCFA32E9CE96B00D82D30 /* LaunchScreen.storyboard */,
+				F66DCFA52E9CE96B00D82D30 /* SceneDelegate.swift */,
+				F66DCFA62E9CE96B00D82D30 /* ViewController.swift */,
+			);
+			path = AhnChiWook_practice;
+			sourceTree = "<group>";
+		};
+		F66DCFB12E9CE97400D82D30 /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				F66DCF9F2E9CE96B00D82D30 /* DangGeunLoginViewController.swift */,
+				F66DCFA02E9CE96B00D82D30 /* DangGeunWelcomeViewController.swift */,
+				F66DCFA42E9CE96B00D82D30 /* LoginViewController.swift */,
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		F66DCFB22E9CE99300D82D30 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				F69DCE912E9D617D00F2F688 /* Fonts */,
+				F66DCFB32E9CE99D00D82D30 /* Extensions */,
+				F66DCF9E2E9CE96B00D82D30 /* Assets.xcassets */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		F66DCFB32E9CE99D00D82D30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F69DCE8F2E9D58C500F2F688 /* UITextField+.swift */,
+				F69DCE8D2E9D52AF00F2F688 /* UIView+.swift */,
+				F66DCFB42E9CEA4600D82D30 /* UIFont+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F69DCE912E9D617D00F2F688 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F69DCE922E9D619000F2F688 /* Pretendard-Black.otf */,
+				F69DCE932E9D619000F2F688 /* Pretendard-Bold.otf */,
+				F69DCE942E9D619000F2F688 /* Pretendard-ExtraBold.otf */,
+				F69DCE952E9D619000F2F688 /* Pretendard-ExtraLight.otf */,
+				F69DCE962E9D619000F2F688 /* Pretendard-Light.otf */,
+				F69DCE972E9D619000F2F688 /* Pretendard-Medium.otf */,
+				F69DCE982E9D619000F2F688 /* Pretendard-Regular.otf */,
+				F69DCE992E9D619000F2F688 /* Pretendard-SemiBold.otf */,
+				F69DCE9A2E9D619000F2F688 /* Pretendard-Thin.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +160,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				F66DCF7B2E9A231300D82D30 /* AhnChiWook_practice */,
-			);
 			name = AhnChiWook_practice;
 			packageProductDependencies = (
+				F66DCF982E9CE4A100D82D30 /* Then */,
+				F66DCF9B2E9CE4B000D82D30 /* SnapKit */,
 			);
 			productName = AhnChiWook_practice;
 			productReference = F66DCF792E9A231300D82D30 /* AhnChiWook_practice.app */;
@@ -107,6 +193,10 @@
 			);
 			mainGroup = F66DCF702E9A231300D82D30;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F66DCF972E9CE4A100D82D30 /* XCRemoteSwiftPackageReference "Then" */,
+				F66DCF9A2E9CE4B000D82D30 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F66DCF7A2E9A231300D82D30 /* Products */;
 			projectDirPath = "";
@@ -122,6 +212,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69DCE9B2E9D619000F2F688 /* Pretendard-Black.otf in Resources */,
+				F69DCE9C2E9D619000F2F688 /* Pretendard-Regular.otf in Resources */,
+				F69DCE9D2E9D619000F2F688 /* Pretendard-Bold.otf in Resources */,
+				F69DCE9E2E9D619000F2F688 /* Pretendard-SemiBold.otf in Resources */,
+				F69DCE9F2E9D619000F2F688 /* Pretendard-Light.otf in Resources */,
+				F69DCEA02E9D619000F2F688 /* Pretendard-Medium.otf in Resources */,
+				F69DCEA12E9D619000F2F688 /* Pretendard-Thin.otf in Resources */,
+				F69DCEA22E9D619000F2F688 /* Pretendard-ExtraBold.otf in Resources */,
+				F69DCEA32E9D619000F2F688 /* Pretendard-ExtraLight.otf in Resources */,
+				F66DCFAE2E9CE96B00D82D30 /* Assets.xcassets in Resources */,
+				F66DCFB02E9CE96B00D82D30 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +233,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66DCFA82E9CE96B00D82D30 /* AppDelegate.swift in Sources */,
+				F66DCFA92E9CE96B00D82D30 /* DangGeunLoginViewController.swift in Sources */,
+				F66DCFAA2E9CE96B00D82D30 /* DangGeunWelcomeViewController.swift in Sources */,
+				F66DCFAB2E9CE96B00D82D30 /* LoginViewController.swift in Sources */,
+				F69DCE8E2E9D52B500F2F688 /* UIView+.swift in Sources */,
+				F66DCFAC2E9CE96B00D82D30 /* SceneDelegate.swift in Sources */,
+				F69DCE902E9D58CE00F2F688 /* UITextField+.swift in Sources */,
+				F66DCFB52E9CEA4600D82D30 /* UIFont+.swift in Sources */,
+				F66DCFAD2E9CE96B00D82D30 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F66DCFA32E9CE96B00D82D30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66DCFA22E9CE96B00D82D30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F66DCF8D2E9A231500D82D30 /* Debug */ = {
@@ -339,6 +460,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F66DCF972E9CE4A100D82D30 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		F66DCF9A2E9CE4B000D82D30 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F66DCF982E9CE4A100D82D30 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F66DCF972E9CE4A100D82D30 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		F66DCF9B2E9CE4B000D82D30 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F66DCF9A2E9CE4B000D82D30 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F66DCF712E9A231300D82D30 /* Project object */;
 }
