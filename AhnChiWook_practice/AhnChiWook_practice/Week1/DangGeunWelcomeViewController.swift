@@ -11,12 +11,10 @@ import Then
 
 final class DangGeunWelcomeViewController: UIViewController {
     
-    var name: String?
     
-    private func bindID() {
-        guard let name else { return }
-        self.welcomeLabel.text = "\(name)님 \n반가워요!"
-    }
+    // MARK: - Properties
+    
+    var name: String?
     
     private let logoImageView = UIImageView().then {
         $0.frame = CGRect(x: 130, y: 87, width: 150, height: 150)
@@ -52,6 +50,8 @@ final class DangGeunWelcomeViewController: UIViewController {
         $0.layer.cornerRadius = 6
     }
     
+    // MARK: - Life Cycle
+    
     override func viewWillAppear(_ animated: Bool) {
         self.navigationItem.hidesBackButton = true
     }
@@ -63,6 +63,8 @@ final class DangGeunWelcomeViewController: UIViewController {
         bindID()
     }
     
+    // MARK: - Setting Method
+    
     private func setLayout() {
         self.view.addSubviews(
             logoImageView,
@@ -70,6 +72,13 @@ final class DangGeunWelcomeViewController: UIViewController {
             goMainButton,
             backToLoginButton
         )
+    }
+    
+    // MARK: - Method
+    
+    private func bindID() {
+        guard let name else { return }
+        self.welcomeLabel.text = "\(name)님 \n반가워요!"
     }
     
     @objc

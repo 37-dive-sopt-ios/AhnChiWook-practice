@@ -11,6 +11,9 @@ import Then
 
 class DangGeunLoginViewController: UIViewController {
     
+    
+    // MARK: - Properties
+    
     private let titleLabel = UILabel().then {
         $0.frame = CGRect(x: 80, y: 161, width: 236, height: 44)
         $0.text = "동네라서 가능한 모든것\n당근에서 가까운 이웃과 함께해요."
@@ -70,6 +73,9 @@ class DangGeunLoginViewController: UIViewController {
         $0.addTarget(self, action: #selector(darkThemeButtonDidTap), for: .touchUpInside)
     }
     
+    
+    // MARK: - Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -86,6 +92,8 @@ class DangGeunLoginViewController: UIViewController {
             darkThemeButton
         )
     }
+    
+    // MARK: - Method
     
     private func presentToWelcomeVC() {
         let vc = DangGeunWelcomeViewController()
