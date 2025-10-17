@@ -1,5 +1,5 @@
 # 🦔 _iOS Pull Request_
-closed #
+- closed #
 
 ## 👻 구현한 내용
 - 
