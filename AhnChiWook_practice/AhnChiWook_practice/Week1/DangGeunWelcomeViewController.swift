@@ -53,12 +53,11 @@ final class DangGeunWelcomeViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        //navigationItem.hidesBackButton = true
+        self.navigationItem.hidesBackButton = true
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.hidesBackButton = true
         self.view.backgroundColor = .white
         setLayout()
         bindID()
