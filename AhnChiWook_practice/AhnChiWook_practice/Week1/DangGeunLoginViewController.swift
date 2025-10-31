@@ -125,22 +125,15 @@ class DangGeunLoginViewController: UIViewController {
     
     @objc
     private func darkThemeButtonDidTap() {
-        if darkThemeButton.isSelected {
-            self.view.backgroundColor = .black
-            self.titleLabel.textColor = .white
-            darkThemeButton.setTitle("라이트 모드", for: .normal)
-            darkThemeButton.backgroundColor = .white
-            darkThemeButton.setTitleColor(.black, for: .normal)
-            darkThemeButton.isSelected = false
-        }
-        else {
-            self.view.backgroundColor = .white
-            self.titleLabel.textColor = .black
-            darkThemeButton.setTitle("다크 모드", for: .normal)
-            darkThemeButton.backgroundColor = .black
-            darkThemeButton.setTitleColor(.white, for: .normal)
-            darkThemeButton.isSelected = true
-        }
+        darkThemeButton.isSelected.toggle()
+        let isDarkMode = darkThemeButton.isSelected
+        
+        view.backgroundColor = isDarkMode ? .black : .white
+        titleLabel.textColor = isDarkMode ? .white : .black
+        
+        darkThemeButton.setTitle(isDarkMode ? "라이트 모드" : "다크 모드", for: .normal)
+        darkThemeButton.backgroundColor = isDarkMode ? .white : .black
+        darkThemeButton.setTitleColor(isDarkMode ? .black : .white, for: .normal)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
