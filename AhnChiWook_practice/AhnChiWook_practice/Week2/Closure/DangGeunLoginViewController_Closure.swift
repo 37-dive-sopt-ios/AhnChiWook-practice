@@ -194,11 +194,11 @@ class DangGeunLoginViewController_Closure: UIViewController{
     }
     
     private func handleCompletion(message: String) {
-            titleLabel.text = message
-            idTextField.text = ""
-            passwordTextField.text = ""
-            loginButton.setTitle("다시 로그인하기", for: .normal)
-        }
+        titleLabel.text = message
+        idTextField.text = ""
+        passwordTextField.text = ""
+        loginButton.setTitle("다시 로그인하기", for: .normal)
+    }
 }
 
 
