@@ -162,22 +162,6 @@ class DangGeunLoginViewController_Closure: UIViewController{
     
     @objc
     private func darkThemeButtonDidTap() {
-//        if darkThemeButton.isSelected {
-//            self.view.backgroundColor = .black
-//            self.titleLabel.textColor = .white
-//            darkThemeButton.setTitle("라이트 모드", for: .normal)
-//            darkThemeButton.backgroundColor = .white
-//            darkThemeButton.setTitleColor(.black, for: .normal)
-//            darkThemeButton.isSelected = false
-//        }
-//        else {
-//            self.view.backgroundColor = .white
-//            self.titleLabel.textColor = .black
-//            darkThemeButton.setTitle("다크 모드", for: .normal)
-//            darkThemeButton.backgroundColor = .black
-//            darkThemeButton.setTitleColor(.white, for: .normal)
-//            darkThemeButton.isSelected = true
-//        }
         darkThemeButton.isSelected.toggle()
         let isDarkMode = darkThemeButton.isSelected
         
