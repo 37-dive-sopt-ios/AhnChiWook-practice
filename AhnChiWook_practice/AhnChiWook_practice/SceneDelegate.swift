@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       // 2.
         let window = UIWindow(windowScene: windowScene)
       // 3.
-        let vc = UINavigationController(rootViewController: FeedViewController())
+        let vc = UINavigationController(rootViewController: LoginViewController_Network())
       // 4.
         window.rootViewController = vc
       // 5.

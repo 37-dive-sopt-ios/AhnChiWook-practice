@@ -20,6 +20,11 @@ extension UITextField {
         self.rightViewMode = ViewMode.always
     }
     
+    func addPadding(leftAmount: CGFloat = 10, rightAmount: CGFloat = 10) {
+        addLeftPadding(leftAmount)
+        addRightPadding(rightAmount)
+    }
+    
     func setPlaceholderColor(_ placeholderColor: UIColor) {
         attributedPlaceholder = NSAttributedString(
             string: placeholder ?? "",
